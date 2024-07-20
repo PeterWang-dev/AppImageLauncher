@@ -320,7 +320,7 @@ QList<Mount> listMounts() {
 QSet<QString> additionalAppImagesLocations(const bool includeAllMountPoints) {
     QSet<QString> additionalLocations;
 
-    additionalLocations << "/Applications";
+    additionalLocations << "/opt/Applications";
 
     // integrate AppImages from mounted filesystems, if requested
     // we don't want to read files from any FUSE mounted filesystems nor from any virtual filesystems
